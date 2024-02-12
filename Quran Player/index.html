@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="script.js" defer></script>
+    <title>Quran Player</title>
+  </head>
+  <body>
+    <!-- <header>
+      <img src="images/header2.jpeg" alt="header image" />
+    </header> -->
+    <div class="overlay"></div>
+
+    <h1>Quran Player</h1>
+    <div class="tilawa-container" id="tilawa-container">
+      <!-- pop up when we play -->
+      <div class="tilawa-info">
+        <h4 id="title"></h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+
+      <audio
+        src="tilawat quran/تلاوة من سورة يونس - الشيخ أحمد السيد.mp3"
+        id="audio"
+      ></audio>
+
+      <div class="img-container">
+        <img
+          src="images/تلاوة من سورة يونس - الشيخ أحمد السيد.jpg"
+          alt="tilawa-cover"
+          id="cover"
+        />
+      </div>
+
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fa-solid fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fa-solid fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fa-solid fa-forward"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
